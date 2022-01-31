@@ -1,5 +1,7 @@
 # csv2logseq_block
-Python script that can read csv file and output a markdown file containing logseq block and block properties (from csv data), and a basic query script to generate a table query (like the format in csv file). The goal is to simulate notion table database in logseq. 
+Hello everone, I like notion database that can create from csv, I also like logseq. But I don't like that notion put my data online. So I try to do something with my basic python knowledge to make a "notion-like table database" in logseq. Feel free to try.
+
+This is a Python script that can read csv file and output a markdown file containing logseq block and block properties (from csv data), and a basic query script to generate a table query (like the format in csv file). The goal is to simulate notion table database in logseq. 
 
 # What you need to prepare
 - python3 and its path
