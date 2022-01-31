@@ -29,3 +29,20 @@ This is a Python script that can read csv file and output a markdown file contai
 - another option: use test/csv2logseq_local.py that will generate filename_local.md in current folder
 
   > python /path/to/csv2logseq_local.py filename.csv
+
+# Image
+- expand the major block
+
+<img width="1440" alt="截屏2022-01-31 21 55 16" src="https://user-images.githubusercontent.com/85311840/151871789-4449e4da-8f4d-424f-859e-0db62de4ae95.png">
+
+- collapse the major block
+
+<img width="1440" alt="截屏2022-01-31 21 55 05" src="https://user-images.githubusercontent.com/85311840/151872053-3db78d77-0038-4e1d-8d79-37ca16bab658.png">
+
+- click one block from query table, you can create new page from \[\[block title]].
+<img width="1440" alt="截屏2022-01-31 21 58 55" src="https://user-images.githubusercontent.com/85311840/151872192-809fcd29-dadb-4fbf-968d-4900e38d0b08.png">
+
+
+
+
+  
