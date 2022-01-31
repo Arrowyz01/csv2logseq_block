@@ -22,11 +22,14 @@ df.columns = df.columns.str.replace(' ', '_')
 # create a first-level block in your logseq, the name is your input file
 print("- "+str(sys.argv[1]))
 
+# find first column name, you will use it as block title
+first_column_name = df.columns[0]
+
 # output from csv to block properties
 for i in range(df.shape[0]):
     for index,data in df.iteritems():
-        # change Article_Title to your first column name in csv!!!
-        if index == 'Article_Title':
+        # block title is your first column name in your csv
+        if index == first_column_name:
             # create a second-level block under above first-level block, this block with two[[]], that can link to a new page, you can use it to write new notes
             print("  - [["+str(data[i])+"]]")
             # create a third-level block under above second-level block, without any [[]], that can be used to in query table
