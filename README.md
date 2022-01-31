@@ -18,12 +18,12 @@ Python script that can read csv file and output a markdown file containing logse
 
 - If you add this script into your $PATH (or put it in a folder that already in your $PATH), you can direct use follow code, the filename.md will appear in your logseq/pages
 
-> csv2logseq.py filename.csv
+  > csv2logseq.py filename.csv
 
 - If you don't want to add it to you $PATH, you can follow code, the filename.md will appear in your logseq/pages
 
-> python /path/to/csv2logseq.py filename.csv
+  > python /path/to/csv2logseq.py filename.csv
 
 - another option: use test/csv2logseq_local.py that will generate filename_local.md in current folder
 
-> python /path/to/csv2logseq_local.py filename.csv
+  > python /path/to/csv2logseq_local.py filename.csv
