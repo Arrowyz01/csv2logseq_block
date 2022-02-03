@@ -30,6 +30,9 @@ This is a Python script that can read csv file and output a markdown file contai
 
   > python /path/to/csv2logseq_local.py filename.csv
 
+- reverse. use test/logseq_block2csv.py that will read md and output a csv in the same folder
+  > python /path/to/logseq_block2csv.py filename.md
+
 # Image
 - expand the major block
 
