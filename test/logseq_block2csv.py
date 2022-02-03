@@ -37,4 +37,4 @@ columnsname=list(dict_data.keys())
 # create a pandas dataframe, column names are the keys
 frame = pd.DataFrame(dict_data,columns=columnsname)
 # output dataframe to csv, without index '0,1,2...'
-frame.to_csv(sys.argv[1].split('.')[0]+'.csv',index=False)
+frame.to_csv('./'+sys.argv[1].split('.')[0]+'.csv',index=False)
