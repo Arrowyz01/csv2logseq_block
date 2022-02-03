@@ -9,7 +9,7 @@ df = pd.read_csv (sys.argv[1])
 import_file_name = sys.argv[1].split('.')[0]
 
 # put the output file (same name with your input file but with _local.md)
-output_file = open('./'+import_file_name+'_local.md', 'w')
+output_file = open('./'+import_file_name+'.md', 'w')
 sys.stdout = output_file
 
 # pd.set_option('max_colwidth',None)
