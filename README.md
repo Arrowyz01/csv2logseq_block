@@ -10,7 +10,7 @@ This is a Python script that can read csv file and output a markdown file contai
 
 # What you need to change in csv2logseq.py
 - 1st line: path to your python
-- 15th line: path to your logseq
+- 15th line: path to your logseq vault folder
 - 47th line: query table name
 
 # How to use this script
