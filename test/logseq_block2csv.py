@@ -17,6 +17,9 @@ with open(sys.argv[1],'r')as file:
             continue
         elif '.csv' in line:
             continue
+        # when meet a blank line, skip
+        elif line[2:].count('\n') == len(line[2:]):
+            continue
         else:
             dict_data.setdefault('title',[]).append(line[2:].strip(" #]\n").replace('[',''))
     # for line with ':: ', and without 'query' or '.csv', we treat the word before '::' as key, the words after '::' as value
@@ -30,7 +33,7 @@ with open(sys.argv[1],'r')as file:
                 dict_data.setdefault(kv[0],[]).append(kv[1])
     else:
         continue
-#print(dict_data)
+# print(dict_data)
 
 # read all the keys as a list
 columnsname=list(dict_data.keys())
