@@ -3,35 +3,38 @@ Hello everone, I like notion database that can create from csv, I also like logs
 
 This is a Python script that can read csv file and output a markdown file containing logseq block and block properties (from csv data), and a basic query script to generate a table query (like the format in csv file). The goal is to simulate notion table database in logseq. 
 
+Also come with a script to reverse!
+
+I try to fix some problem, also make the usage a little bit easier... maybe not?
+
 # What you need to prepare
-- python3 and its path
-- make sure you have pandas installed
-- find your logseq path
+- python3
+    > which python
+    > python -V
+- make sure you have pandas installed, use follow command to check
+    > pip list
+- or install pandas
+    > pip install pandas
+- find your logseq vault
 
-# What you need to change in csv2logseq.py
-- 1st line: path to your python
-- 15th line: path to your logseq vault folder
-- 47th line: query table name
+# quick start
+- convert '.csv' to '.md' with logseq block structures and a query table with "Table name".
 
-# How to use this script
-- download csv2logseq.py
-- change what you need to change in csv2logseq.py
-- cd to you csv folder
+    - download and put 'csv2logseq.py' in the same folder as '.csv' file you want to convert, use shell and 'cd' to your '.csv' folder.
+    - type the command, you need to change to your '.csv' filename and your "Table name". Please note that: the "" is necessary for the table name of query table.
+        > python csv2logseq.py filename.csv "Table name"
+    - it will read the '.csv', and output a '.md' file with logseq block/block properties structrue in the same folder. 
+    - then you can copy the output '.md' file to your logseq vault (ie. in "pages" folder). 
 
-- If you add this script into your $PATH (or put it in a folder that already in your $PATH), you can direct use follow code, the filename.md will appear in your logseq/pages
+- convert '.md' with logseq block structures to '.csv'.
 
-  > csv2logseq.py filename.csv
-
-- If you don't want to add it to you $PATH, you can follow code, the filename.md will appear in your logseq/pages
-
-  > python /path/to/csv2logseq.py filename.csv
-
-- another option: use test/csv2logseq_local.py that will generate filename_local.md in current folder
-
-  > python /path/to/csv2logseq_local.py filename.csv
-
-- reverse. use test/logseq_block2csv.py that will read md and output a csv in the same folder
-  > python /path/to/logseq_block2csv.py filename.md
+    - if you want to reverse the process, ie, read '.md' file with logseq block/block properties structrue and output a '.csv' file, please use 'logseq_block2csv.py'. 
+    - just download and put it in the same folder as the '.md' file you want to convert, use shell and 'cd' to your '.md' folder.
+    - type the command, you need to change to your '.md' filename.
+        > python logseq_block2csv.py filename.md
+    - the script will output the '.csv' file in the same folder as well. 
+    - but please note that: the script is very sensitve to the format in '.md' file, you'd better make the '.md' file as neat as possible.
+    
 
 # Image
 - expand the major block
@@ -45,7 +48,12 @@ This is a Python script that can read csv file and output a markdown file contai
 - click one block from query table, you can create new page from \[\[block title]].
 <img width="1440" alt="截屏2022-01-31 21 58 55" src="https://user-images.githubusercontent.com/85311840/151872192-809fcd29-dadb-4fbf-968d-4900e38d0b08.png">
 
+# Advanced use 
+- go to the 'advanced' folder and download a little bit different 'csv2logseq.py'
+- add add this script into your $PATH (or put it in a folder that already in your $PATH)
+- change a little bit in these scripts
+  - 1st line: path to your python
+  - 22th line: path to your logseq vault folder
+- now you can use the follow command and the output file will directly appear in your vault folder
+    > csv2logseq.py filename.csv "Table name"
 
-
-
-  
