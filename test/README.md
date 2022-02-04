@@ -11,7 +11,7 @@
 # quick start
 - convert '.csv' to '.md' with logseq block structures and a query table with "Table name".
 
-    - download and put 'csv2logseq.py' in the same folder as '.csv' file you want to convert, use shell and 'cd' to your '.csv' folder.
+    - download and put 'csv2logseq.py' in the same folder as '.csv' file you want to convert, use shell and 'cd' to that folder.
     - type the command, you need to change to your '.csv' filename and your "Table name". Please note that: the "" is necessary for the table name of query table.
         > python csv2logseq.py filename.csv "Table name"
     - it will read the '.csv', and output a '.md' file with logseq block/block properties structrue in the same folder. 
@@ -20,7 +20,7 @@
 - convert '.md' with logseq block structures to '.csv'.
 
     - if you want to reverse the process, ie, read '.md' file with logseq block/block properties structrue and output a '.csv' file, please use 'logseq_block2csv.py'. 
-    - just download and put it in the same folder as the '.md' file you want to convert, use shell and 'cd' to your '.md' folder.
+    - just download and put it in the same folder as the '.md' file you want to convert, use shell and 'cd' to that folder.
     - type the command, you need to change to your '.md' filename.
         > python logseq_block2csv.py filename.md
     - the script will output the '.csv' file in the same folder as well. 
