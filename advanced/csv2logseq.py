@@ -38,14 +38,14 @@ for i in range(df.shape[0]):
         # block title is your first column name in your csv
         if index == first_column_name:
             # create a second-level block under above first-level block, this block with two[[]], that can link to a new page, you can use it to write new notes
-            print("  - [["+str(data[i])+"]]")
+            print("\t"+"- [["+str(data[i])+"]]")
             # create a third-level block under above second-level block, without any [[]], that can be used to in query table
-            print("    - "+str(data[i]))
+            print("\t\t"+"- "+str(data[i]))
             # incorporate a source-file property in every third-level block that can be query afterward
-            print("    "+"source_file:: "+str(sys.argv[1]))
+            print("\t\t"+"source_file:: "+str(sys.argv[1]))
         else:
         # write properties of the third-level block
-            print("    "+str(index)+":: "+str(data[i]))
+            print("\t\t"+str(index)+":: "+str(data[i]))
 
 # a basic query that will create a table that looks like the format in csv or a notion table database
 
