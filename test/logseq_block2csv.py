@@ -4,8 +4,6 @@ import pandas as pd
 # create a new dict
 dict_data={}
 
-list1 = ['1','1','2','2','1','1']
-
 # delete adjacent duplicate 
 def del_adjacent(alist):
     for i in range(len(alist) - 1, 0, -1):
