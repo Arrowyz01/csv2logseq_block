@@ -10,6 +10,7 @@ I try to fix some problem, also make the usage a little bit easier... maybe not?
 # What you need to prepare
 - python3
     > which python
+
     > python -V
 - make sure you have pandas installed, use follow command to check
     > pip list
