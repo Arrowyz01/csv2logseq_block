@@ -56,11 +56,19 @@ I try to fix some problem, also make the usage a little bit easier... maybe not?
 
 - csv2md
 
-https://user-images.githubusercontent.com/85311840/152789292-9fb429ba-5155-46cc-9e82-a740b383f294.mov
+
+
+https://user-images.githubusercontent.com/85311840/152845713-166aa24a-fed2-4745-aca5-2953d6388783.mp4
+
+
 
 - md2csv
 
-https://user-images.githubusercontent.com/85311840/152789344-85ef1761-cf9b-4586-b83b-6d915a884098.mov
+
+
+https://user-images.githubusercontent.com/85311840/152845754-997651d8-8bad-4fc9-9ad4-b3eba06d5c48.mp4
+
+
 
 # Advanced use 
 - go to the 'advanced' folder and download a little bit different 'csv2logseq.py'
