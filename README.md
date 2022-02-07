@@ -40,14 +40,27 @@ I try to fix some problem, also make the usage a little bit easier... maybe not?
 # Image
 - expand the major block
 
-<img width="1440" alt="截屏2022-01-31 21 55 16" src="https://user-images.githubusercontent.com/85311840/151871789-4449e4da-8f4d-424f-859e-0db62de4ae95.png">
+<img width="1552" alt="expand" src="https://user-images.githubusercontent.com/85311840/152789156-02c3f1b4-4dda-4d81-a95b-6eb3a2e943ae.png">
+
 
 - collapse the major block
 
-<img width="1440" alt="截屏2022-01-31 21 55 05" src="https://user-images.githubusercontent.com/85311840/151872053-3db78d77-0038-4e1d-8d79-37ca16bab658.png">
+<img width="1552" alt="fold" src="https://user-images.githubusercontent.com/85311840/152789177-b8b396ff-75c3-4df9-b148-21a9213dee1c.png">
+
 
 - click one block from query table, you can create new page from \[\[block title]].
-<img width="1440" alt="截屏2022-01-31 21 58 55" src="https://user-images.githubusercontent.com/85311840/151872192-809fcd29-dadb-4fbf-968d-4900e38d0b08.png">
+
+<img width="1552" alt="block" src="https://user-images.githubusercontent.com/85311840/152789190-41c0cf25-5cc6-41b6-a849-43abf20f4231.png">
+
+# Video
+
+- csv2md
+
+https://user-images.githubusercontent.com/85311840/152789292-9fb429ba-5155-46cc-9e82-a740b383f294.mov
+
+- md2csv
+
+https://user-images.githubusercontent.com/85311840/152789344-85ef1761-cf9b-4586-b83b-6d915a884098.mov
 
 # Advanced use 
 - go to the 'advanced' folder and download a little bit different 'csv2logseq.py'
