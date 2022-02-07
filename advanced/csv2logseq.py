@@ -23,7 +23,7 @@ output_file = open('/path/to/your/vault/pages/'+import_file_name+'.md', 'w')
 sys.stdout = output_file
 
 # pd.set_option('max_colwidth',None)
-
+df.columns = df.columns.str.strip()
 df.columns = df.columns.str.replace(' ', '_')
 
 # create a first-level block in your logseq, the name is your input file
