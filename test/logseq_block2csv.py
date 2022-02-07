@@ -43,7 +43,8 @@ with open(sys.argv[1],'r')as file:
         else:
             continue
 
-del_adjacent(dict_data['title'])
+if len(dict_data['title']) != len(dict_data[list(dict_data)[1]]):
+    del_adjacent(dict_data['title'])
 #print(dict_data)
 
 # read all the keys as a list
