@@ -8,9 +8,9 @@
 - filename.csv
 
 # Caution
--  the variables in template.md should be like $title, $name or $title_name (no blank in variables, please replace blank with '_' by yourself)
+- the variables in template.md should be like $title, $name or $title_name (no blank in variables, please replace blank with '_' by yourself)
 - the variables in template.md should match the first row (colume name) in data.csv
-- but you don't need to replace the blank in column name by yourself. script will do that. So you can keep column name in csv file as "title name"
+- but you don't need to replace the blank in column name in csv file by yourself. script will do that. So you can keep column name in csv file as "title name"
 
 # Quick start
 - download csv2mdt.py and put it in the same folder as template.md and filename.csv
