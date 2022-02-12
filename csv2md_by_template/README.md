@@ -18,3 +18,9 @@
     > python csv2mdt.py filename.csv
 
 - the output files will be automatically generated in the same folders
+
+# Video
+
+
+https://user-images.githubusercontent.com/85311840/153729075-4263ff1b-68c6-4309-bcfc-1075c82d330c.mp4
+
