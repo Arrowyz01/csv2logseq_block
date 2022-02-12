@@ -14,6 +14,7 @@
 
 # Quick start
 - download csv2mdt.py and put it in the same folder as template.md and filename.csv
+- use shell and 'cd' to that folder
 - use follow command
     > python csv2mdt.py filename.csv
 
