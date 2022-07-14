@@ -3,8 +3,13 @@ import sys
 import pandas as pd
 
 # read file from argv
+if '.\\' in sys.argv[1] and '..\\' not in sys.argv[1]:
+    sys.argv[1] = sys.argv[1].replace('.\\', '', 1)
+if './' in sys.argv[1] and '../' not in sys.argv[1]:
+    sys.argv[1] = sys.argv[1].replace('./', '', 1)
 df = pd.read_csv (sys.argv[1], na_filter=False)
 
+sys.argv[1] = sys.argv[1].replace('..\\', '', 1).replace('../', '', 1)
 # extract csv file name
 import_file_name = sys.argv[1].split('.')[0]
 
