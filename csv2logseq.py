@@ -3,6 +3,7 @@ import sys
 import pandas as pd
 
 # read file from argv
+sys.argv[1] = sys.argv[1].replace('.\\', '', 1).replace('./', '', 1)
 df = pd.read_csv (sys.argv[1], na_filter=False)
 
 # extract csv file name
