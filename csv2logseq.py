@@ -15,7 +15,7 @@ else:
     print("Maybe you forget your \"table name\" or type it wrong!")
 
 # put the output file (same name with your input file but with _local.md)
-output_file = open('./'+import_file_name+'.md', 'w')
+output_file = open('./'+import_file_name+'.md', 'w', encoding='utf8')
 sys.stdout = output_file
 
 # pd.set_option('max_colwidth',None)
